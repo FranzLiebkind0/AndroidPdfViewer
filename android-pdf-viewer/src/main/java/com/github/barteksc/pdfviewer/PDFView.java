@@ -482,6 +482,10 @@ public class PDFView extends RelativeLayout {
         super.onDetachedFromWindow();
     }
 
+    public PdfFile getPdfFile() {
+        return pdfFile;
+    }
+
     @Override
     protected void onSizeChanged(int w, int h, int oldw, int oldh) {
         hasSize = true;
