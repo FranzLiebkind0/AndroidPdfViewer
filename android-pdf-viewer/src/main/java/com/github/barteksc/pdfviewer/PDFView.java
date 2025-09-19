@@ -482,7 +482,7 @@ public class PDFView extends RelativeLayout {
         super.onDetachedFromWindow();
     }
 
-    // added for catch it
+    // added for catch it and tagged
     public PdfFile getPdfFile() {
         return pdfFile;
     }
