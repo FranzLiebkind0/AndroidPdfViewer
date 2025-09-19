@@ -17,6 +17,10 @@ dependencies {
     api 'com.github.mhiew:pdfium-android:1.9.2'
 }
 
+tasks.withType(Javadoc).all {
+    enabled = false
+}
+
 // Maven Publishing
 ext {
     PUBLISH_GROUP_ID = 'com.github.mhiew'
